@@ -2,7 +2,6 @@
 
 url="http://example.com"
 log_file="error.log"
-email="example@example.com"
 
 check_response_code() {
   response_code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
